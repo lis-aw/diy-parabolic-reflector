@@ -8,7 +8,7 @@ A fine wire mesh can then be placed over the frame and be secured to create a fu
 <img src="https://github.com/user-attachments/assets/aa9ba178-6a30-4016-9ce8-8fa9f0e3d420" alt="parabolic-reflector" width="600">
 
 This reflector is designed for hobbyists who want to build a lightweight, cheap and customizable satellite dish for their own projects. I have used the shown dish to receive the **High Resolution Picture Transmission (HRPT)** from NOAA satellites. Of course, other satellites of similar frequency will also work.
->  This reflector is not intended for receiving satellite television, etc., and isn't suitable to replace regular satellite dishes.
+>  This reflector is not intended for receiving satellite television, etc., and isn't suitable to replace regular satellite dishes. Note: Actually, who knows, try it.
 
 
 ### How it works:
@@ -32,7 +32,7 @@ A and B have segments of different lengths. It's important to know the segment s
 
 With these segment lengths, you can create a sketch of the struts and their screwholes.
 Parabola A exists 3 times. Parabola B exists 6 times. C exists 12 times.
-The images show my sketch in Fusion360 and the cut struts.
+The images show my sketch in Fusion360 and the cut struts. I used MDF and a lasercutter. You can use other materials as well. For example aluminum or plastic.
 
 **IMPORTANT:** You have to add 5mm to both ends of all struts for the additional space needed to create the screwholes there!
 
@@ -70,5 +70,5 @@ The Python code outputs all parabola functions and points neccessary, so you can
 
 ### Reference:
 I found the idea for this kind of dish on Yoshiyuki Takeyasu's [page](http://www.terra.dti.ne.jp/~takeyasu/). There you can find everything from his side about the dish. Very cool stuff he has come up with! I recommend checking it out if you are an antenna enthusiast.
-I found his work when looking for a way to build my own lightweight parabolic reflector. He provides an Excel sheet to do the calculations, but I couldn't verify the calculation behind it from just looking at the sheet (needed verification for my bacheolr thesis), so I did the calculations on my own and wrote my own program to check if the numbers are correct and to output all the things I would need to 3D model the frame.
+I found his work when looking for a way to build my own lightweight parabolic reflector. He provides an Excel sheet to do the calculations, but I couldn't verify the calculation behind it from just looking at the sheet (needed verification for my bachelor thesis), so I did the calculations on my own and wrote my own program to check if the numbers are correct and to output all the things I would need to 3D model the frame.
  
